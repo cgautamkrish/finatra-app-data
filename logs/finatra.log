@@ -1,0 +1,6 @@
+INF [20160215-01:58:13.273] finatra: finatra process 16210 started
+INF [20160215-01:58:13.276] finatra: http server started on port: :7070
+INF [20160215-01:58:14.481] finatra: admin http server started on port: :9990
+INF [20160215-01:58:19.754] finatra: GET / 200 61ms
+INF [20160215-01:58:58.740] finatra: GET /search?q=foo 200 13ms
+INF [20160215-01:59:29.112] finatra: GET /user/dave 200 4ms

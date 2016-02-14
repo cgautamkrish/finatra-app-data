@@ -1,0 +1,13 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/gautamkrishnan/git/finatra/src/main/resources/an_view.mustache,/Users/gautamkrishnan/git/finatra/target/scala-2.10/classes/an_view.mustache)[0m
+[0m[[0mdebug[0m] [0m	(/Users/gautamkrishnan/git/finatra/src/main/resources/dealwithit.gif,/Users/gautamkrishnan/git/finatra/target/scala-2.10/classes/dealwithit.gif)[0m
+[0m[[0mdebug[0m] [0m	(/Users/gautamkrishnan/git/finatra/src/main/resources/public,/Users/gautamkrishnan/git/finatra/target/scala-2.10/classes/public)[0m
+[0m[[0mdebug[0m] [0m	(/Users/gautamkrishnan/git/finatra/src/main/resources/public/components,/Users/gautamkrishnan/git/finatra/target/scala-2.10/classes/public/components)[0m
+[0m[[0mdebug[0m] [0m	(/Users/gautamkrishnan/git/finatra/src/main/resources/public/dealwithit.gif,/Users/gautamkrishnan/git/finatra/target/scala-2.10/classes/public/dealwithit.gif)[0m
+[0m[[0mdebug[0m] [0m	(/Users/gautamkrishnan/git/finatra/src/main/resources/public/favicon.ico,/Users/gautamkrishnan/git/finatra/target/scala-2.10/classes/public/favicon.ico)[0m
+[0m[[0mdebug[0m] [0m	(/Users/gautamkrishnan/git/finatra/src/main/resources/public/finatra_logo.jpg,/Users/gautamkrishnan/git/finatra/target/scala-2.10/classes/public/finatra_logo.jpg)[0m
+[0m[[0mdebug[0m] [0m	(/Users/gautamkrishnan/git/finatra/src/main/resources/public/index.html,/Users/gautamkrishnan/git/finatra/target/scala-2.10/classes/public/index.html)[0m
+[0m[[0mdebug[0m] [0m	(/Users/gautamkrishnan/git/finatra/src/main/resources/public/components/bootstrap,/Users/gautamkrishnan/git/finatra/target/scala-2.10/classes/public/components/bootstrap)[0m
+[0m[[0mdebug[0m] [0m	(/Users/gautamkrishnan/git/finatra/src/main/resources/public/components/bootstrap/dist,/Users/gautamkrishnan/git/finatra/target/scala-2.10/classes/public/components/bootstrap/dist)[0m
+[0m[[0mdebug[0m] [0m	(/Users/gautamkrishnan/git/finatra/src/main/resources/public/components/bootstrap/dist/css,/Users/gautamkrishnan/git/finatra/target/scala-2.10/classes/public/components/bootstrap/dist/css)[0m
+[0m[[0mdebug[0m] [0m	(/Users/gautamkrishnan/git/finatra/src/main/resources/public/components/bootstrap/dist/css/bootstrap.css,/Users/gautamkrishnan/git/finatra/target/scala-2.10/classes/public/components/bootstrap/dist/css/bootstrap.css)[0m
