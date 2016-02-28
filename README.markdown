@@ -32,30 +32,4 @@ The `.env` file is used to configure Heroku environment variables locally. See [
 ### Packaging (fatjar)
 
     mvn package
-
-## Heroku
-
-Install [heroku toolbelt](https://toolbelt.heroku.com/).
-
-You may also need to install foreman:
-
-    gem install foreman
-
-### To put on heroku
-
-    heroku login
-    git init
-    heroku create --buildpack https://github.com/heroku/heroku-buildpack-scala.git
-    heroku config:set ENV=production
-    git add .
-    git commit -am "Initial commit"
-    git push heroku master
-
-### To run locally like it does on heroku
-
-    foreman start web
-
-### To run anywhere else
-
-    ./target/universal/stage/bin/<appname>
     

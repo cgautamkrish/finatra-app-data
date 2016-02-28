@@ -1,22 +1,40 @@
-[0m[[0minfo[0m] [0mUpdating {file:/Users/gautamkrishnan/git/finatra/project/}finatra-build...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#finatra-build;0.1-SNAPSHOT[0m
+[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/Gautam/Documents/git/scala/project/}scala-build...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#scala-build;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.10.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.eed3si9n#sbt-assembly;0.10.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.eed3si9n#sbt-assembly;0.10.2 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.eed3si9n#sbt-assembly;0.10.2[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.eed3si9n#sbt-assembly;0.10.2[0m
-[0m[[0mdebug[0m] [0m	found com.eed3si9n#sbt-assembly;0.10.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;0.8.0-RC1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.eed3si9n#sbt-assembly;0.10.2[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: found md file for com.eed3si9n#sbt-assembly;0.10.2[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/ivys/ivy.xml (0.10.2)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/ivys/ivy.xml ...[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/ivys/ivy.xml.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.eed3si9n#sbt-assembly;0.10.2!ivy.xml(ivy.original) (5315ms)[0m
+[0m[[0mdebug[0m] [0m	found com.eed3si9n#sbt-assembly;0.10.2 in sbt-plugin-releases[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;0.8.0-RC1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-native-packager;0.8.0-RC1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-native-packager;0.8.0-RC1 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.sbt#sbt-native-packager;0.8.0-RC1[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.typesafe.sbt#sbt-native-packager;0.8.0-RC1[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.sbt#sbt-native-packager;0.8.0-RC1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/0.8.0-RC1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/0.8.0-RC1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.typesafe.sbt#sbt-native-packager;0.8.0-RC1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/0.8.0-RC1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: found md file for com.typesafe.sbt#sbt-native-packager;0.8.0-RC1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/0.8.0-RC1/ivys/ivy.xml (0.8.0-RC1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/0.8.0-RC1/ivys/ivy.xml ...[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/0.8.0-RC1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/0.8.0-RC1/ivys/ivy.xml.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/0.8.0-RC1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.sbt#sbt-native-packager;0.8.0-RC1!ivy.xml(ivy.original) (4919ms)[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.sbt#sbt-native-packager;0.8.0-RC1 in sbt-plugin-releases[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;0.8.0-RC1->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.commons#commons-compress;1.4.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-compress;1.4.1 {compile=[default(compile)]}[0m
@@ -454,9 +472,58 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.apache.maven.plugin-tools#maven-plugin-annotations;3.3 {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.apache.maven.plugin-tools#maven-plugin-annotations;3.2 {provided=[compile(*), provided(*), runtime(*), master(*)]}[0m
 [0m[[0minfo[0m] [0mResolving com.google.guava#guava;14.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.guava#guava;14.0.1[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.google.guava#guava;14.0.1[0m
-[0m[[0mdebug[0m] [0m	found com.google.guava#guava;14.0.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.google.guava/guava/14.0.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.google.guava/guava/14.0.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.google.guava#guava;14.0.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.guava/guava/14.0.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.guava/guava/14.0.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.google.guava#guava;14.0.1[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\Gautam\.ivy2\local\com.google.guava\guava\14.0.1\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.google.guava#guava;14.0.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for com.google.guava#guava;14.0.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom (14.0.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.guava#guava;14.0.1!guava.pom(pom.original) (1408ms)[0m
+[0m[[0minfo[0m] [0mResolving com.google.guava#guava-parent;14.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.guava#guava-parent;14.0.1 {}[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.google.guava/guava-parent/14.0.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.google.guava/guava-parent/14.0.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.google.guava#guava-parent;14.0.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.guava/guava-parent/14.0.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.guava/guava-parent/14.0.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.google.guava#guava-parent;14.0.1[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\Gautam\.ivy2\local\com.google.guava\guava-parent\14.0.1\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.google.guava#guava-parent;14.0.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for com.google.guava#guava-parent;14.0.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom (14.0.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.guava#guava-parent;14.0.1!guava-parent.pom(pom.original) (1776ms)[0m
+[0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.sonatype.oss#oss-parent;7[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.google.guava/guava-parent/14.0.1/jars/guava-parent.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.google.guava/guava-parent/14.0.1/jars/guava-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.guava/guava-parent/14.0.1/jars/guava-parent.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.guava/guava-parent/14.0.1/jars/guava-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\Gautam\.ivy2\local\com.google.guava\guava-parent\14.0.1\jars\guava-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.google.guava/guava/14.0.1/bundles/guava.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.google.guava/guava/14.0.1/bundles/guava.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.guava/guava/14.0.1/bundles/guava.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.guava/guava/14.0.1/bundles/guava.jar[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\Gautam\.ivy2\local\com.google.guava\guava\14.0.1\bundles\guava.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.google.guava#guava;14.0.1 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.0.0.M5->com.google.guava#guava;14.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.0.0.M5->org.sonatype.sisu#sisu-guice;3.1.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.4 {optional=[compile(*), master(*)]} => dependency: org.slf4j#slf4j-api;1.7.5 {optional=[compile(*), master(*)]}[0m
@@ -986,10 +1053,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.vafer#jdeb;1.3->org.bouncycastle#bcpg-jdk15on;1.51 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;0.8.0-RC1->org.vafer#jdeb;1.3 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.10.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;0.8.0-RC1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;0.8.0-RC1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;0.8.0-RC1->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;0.8.0-RC1->org.apache.commons#commons-compress;1.4.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;0.8.0-RC1->org.apache.commons#commons-compress;1.4.1 [compile->compile][0m
@@ -1752,11 +1819,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.bouncycastle#bcpg-jdk15on;1.51->org.bouncycastle#bcprov-jdk15on;1.51 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;0.8.0-RC1->org.vafer#jdeb;1.3 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.10.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;0.8.0-RC1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;0.8.0-RC1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;0.8.0-RC1->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;0.8.0-RC1->org.apache.commons#commons-compress;1.4.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;0.8.0-RC1->org.apache.commons#commons-compress;1.4.1 [compile->compile][0m
@@ -2519,18 +2586,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.bouncycastle#bcpg-jdk15on;1.51->org.bouncycastle#bcprov-jdk15on;1.51 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;0.8.0-RC1->org.vafer#jdeb;1.3 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@253626de[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27a88fb2[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.13.5 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.5 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.5[0m
@@ -3076,12 +3143,12 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-sbt#interface;0.13.5 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.10.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;0.8.0-RC1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;0.8.0-RC1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;0.8.0-RC1->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;0.8.0-RC1->org.apache.commons#commons-compress;1.4.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;0.8.0-RC1->org.apache.commons#commons-compress;1.4.1 [compile->compile][0m
@@ -3843,13 +3910,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.bouncycastle#bcpg-jdk15on;1.51->org.bouncycastle#bcprov-jdk15on;1.51 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.bouncycastle#bcpg-jdk15on;1.51->org.bouncycastle#bcprov-jdk15on;1.51 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;0.8.0-RC1->org.vafer#jdeb;1.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
@@ -4170,11 +4237,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-sbt#interface;0.13.5 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.10.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;0.8.0-RC1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;0.8.0-RC1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;0.8.0-RC1->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;0.8.0-RC1->org.apache.commons#commons-compress;1.4.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;0.8.0-RC1->org.apache.commons#commons-compress;1.4.1 [compile->compile][0m
@@ -4936,14 +5003,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.bouncycastle#bcpg-jdk15on;1.51->org.bouncycastle#bcprov-jdk15on;1.51 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.bouncycastle#bcpg-jdk15on;1.51->org.bouncycastle#bcprov-jdk15on;1.51 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;0.8.0-RC1->org.vafer#jdeb;1.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.10.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;0.8.0-RC1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;0.8.0-RC1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;0.8.0-RC1->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;0.8.0-RC1->org.apache.commons#commons-compress;1.4.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;0.8.0-RC1->org.apache.commons#commons-compress;1.4.1 [compile->compile][0m
@@ -5705,13 +5772,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.bouncycastle#bcpg-jdk15on;1.51->org.bouncycastle#bcprov-jdk15on;1.51 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.bouncycastle#bcpg-jdk15on;1.51->org.bouncycastle#bcprov-jdk15on;1.51 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;0.8.0-RC1->org.vafer#jdeb;1.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
@@ -6032,18 +6099,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-sbt#interface;0.13.5 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#finatra-build;0.1-SNAPSHOT [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scala-build;0.1-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default][0m
@@ -6061,8 +6128,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(*)]}[0m
@@ -6077,15 +6144,25 @@
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.fusesource.jansi#jansi;1.4[0m
 [0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#finatra-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.eed3si9n#sbt-assembly;0.10.2!sbt-assembly.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbt#sbt-native-packager;0.8.0-RC1!sbt-native-packager.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/jars/sbt-assembly.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/jars/sbt-assembly.jar ...[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/jars/sbt-assembly.jar[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/jars/sbt-assembly.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.10.2/jars/sbt-assembly.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.eed3si9n#sbt-assembly;0.10.2!sbt-assembly.jar (5540ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/0.8.0-RC1/jars/sbt-native-packager.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/0.8.0-RC1/jars/sbt-native-packager.jar ...[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/0.8.0-RC1/jars/sbt-native-packager.jar[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/0.8.0-RC1/jars/sbt-native-packager.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/0.8.0-RC1/jars/sbt-native-packager.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.sbt#sbt-native-packager;0.8.0-RC1!sbt-native-packager.jar (7164ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.vafer#jdeb;1.3!jdeb.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-compress;1.7!commons-compress.jar[0m
@@ -6112,7 +6189,12 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.sonatype.plexus#plexus-sec-dispatcher;1.3!plexus-sec-dispatcher.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.sonatype.plexus#plexus-cipher;1.7!plexus-cipher.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.enterprise#cdi-api;1.0!cdi-api.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.guava#guava;14.0.1!guava.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.google.guava#guava;14.0.1!guava.jar(bundle) (7830ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.sonatype.sisu#sisu-guice;3.1.3!sisu-guice.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.sisu#org.eclipse.sisu.inject;0.0.0.M5!org.eclipse.sisu.inject.jar(eclipse-plugin)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.annotation#jsr250-api;1.0!jsr250-api.jar[0m
@@ -6169,19 +6251,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.5!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2789ms :: artifacts dl 75ms[0m
-[0m[[0mdebug[0m] [0m	report for default#finatra-build;0.1-SNAPSHOT compile produced in /Users/gautamkrishnan/git/finatra/project/target/resolution-cache/reports/default-finatra-build-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#finatra-build;0.1-SNAPSHOT runtime produced in /Users/gautamkrishnan/git/finatra/project/target/resolution-cache/reports/default-finatra-build-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#finatra-build;0.1-SNAPSHOT test produced in /Users/gautamkrishnan/git/finatra/project/target/resolution-cache/reports/default-finatra-build-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#finatra-build;0.1-SNAPSHOT provided produced in /Users/gautamkrishnan/git/finatra/project/target/resolution-cache/reports/default-finatra-build-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#finatra-build;0.1-SNAPSHOT optional produced in /Users/gautamkrishnan/git/finatra/project/target/resolution-cache/reports/default-finatra-build-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#finatra-build;0.1-SNAPSHOT compile-internal produced in /Users/gautamkrishnan/git/finatra/project/target/resolution-cache/reports/default-finatra-build-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#finatra-build;0.1-SNAPSHOT runtime-internal produced in /Users/gautamkrishnan/git/finatra/project/target/resolution-cache/reports/default-finatra-build-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#finatra-build;0.1-SNAPSHOT test-internal produced in /Users/gautamkrishnan/git/finatra/project/target/resolution-cache/reports/default-finatra-build-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#finatra-build;0.1-SNAPSHOT plugin produced in /Users/gautamkrishnan/git/finatra/project/target/resolution-cache/reports/default-finatra-build-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#finatra-build;0.1-SNAPSHOT sources produced in /Users/gautamkrishnan/git/finatra/project/target/resolution-cache/reports/default-finatra-build-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#finatra-build;0.1-SNAPSHOT docs produced in /Users/gautamkrishnan/git/finatra/project/target/resolution-cache/reports/default-finatra-build-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#finatra-build;0.1-SNAPSHOT pom produced in /Users/gautamkrishnan/git/finatra/project/target/resolution-cache/reports/default-finatra-build-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#finatra-build;0.1-SNAPSHOT scala-tool produced in /Users/gautamkrishnan/git/finatra/project/target/resolution-cache/reports/default-finatra-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2789ms resolve - 75ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 31538ms :: artifacts dl 24087ms[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-build;0.1-SNAPSHOT compile produced in C:\Users\Gautam\Documents\git\scala\project\target\resolution-cache\reports\default-scala-build-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-build;0.1-SNAPSHOT runtime produced in C:\Users\Gautam\Documents\git\scala\project\target\resolution-cache\reports\default-scala-build-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-build;0.1-SNAPSHOT test produced in C:\Users\Gautam\Documents\git\scala\project\target\resolution-cache\reports\default-scala-build-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-build;0.1-SNAPSHOT provided produced in C:\Users\Gautam\Documents\git\scala\project\target\resolution-cache\reports\default-scala-build-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-build;0.1-SNAPSHOT optional produced in C:\Users\Gautam\Documents\git\scala\project\target\resolution-cache\reports\default-scala-build-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-build;0.1-SNAPSHOT compile-internal produced in C:\Users\Gautam\Documents\git\scala\project\target\resolution-cache\reports\default-scala-build-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\Gautam\Documents\git\scala\project\target\resolution-cache\reports\default-scala-build-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-build;0.1-SNAPSHOT test-internal produced in C:\Users\Gautam\Documents\git\scala\project\target\resolution-cache\reports\default-scala-build-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-build;0.1-SNAPSHOT plugin produced in C:\Users\Gautam\Documents\git\scala\project\target\resolution-cache\reports\default-scala-build-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-build;0.1-SNAPSHOT sources produced in C:\Users\Gautam\Documents\git\scala\project\target\resolution-cache\reports\default-scala-build-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-build;0.1-SNAPSHOT docs produced in C:\Users\Gautam\Documents\git\scala\project\target\resolution-cache\reports\default-scala-build-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-build;0.1-SNAPSHOT pom produced in C:\Users\Gautam\Documents\git\scala\project\target\resolution-cache\reports\default-scala-build-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scala-build;0.1-SNAPSHOT scala-tool produced in C:\Users\Gautam\Documents\git\scala\project\target\resolution-cache\reports\default-scala-build-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (31538ms resolve - 24087ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
